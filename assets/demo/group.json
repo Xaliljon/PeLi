@@ -1,0 +1,86 @@
+[
+      {
+         "groupName":"Вложенные зарегистрированные товары",
+         "groupId":200,
+         "attributes":[
+            {
+               "attrId":15800,
+               "attrName":"Код вложенной упаковки",
+               "attrValue":"47801875"
+            },
+            {
+               "attrId":15803,
+               "attrName":"Количество вложенных упаковок",
+               "attrValue":"10"
+            }
+         ]
+      },
+      {
+         "groupName":"Весогабаритные характеристики",
+         "groupId":19,
+         "attributes":[
+            {
+               "attrId":2439,
+               "attrName":"Ширина",
+               "attrValue":"27.95"
+            },
+            {
+               "attrId":2438,
+               "attrName":"Глубина",
+               "attrValue":"2.4"
+            },
+            {
+               "attrId":2437,
+               "attrName":"Высота",
+               "attrValue":"8.52"
+            },
+            {
+               "attrId":2440,
+               "attrName":"Вес брутто",
+               "attrValue":"0.15253"
+            }
+         ]
+      },
+      {
+         "groupName":"Тип и материал упаковки",
+         "groupId":14,
+         "attributes":[
+            {
+               "attrId":2710,
+               "attrName":"Тип упаковки",
+               "attrValue":"Коробка"
+            },
+            {
+               "attrId":2713,
+               "attrName":"Материал упаковки",
+               "attrValue":"Политэтилен высокой плотности"
+            }
+         ]
+      },
+      {
+         "groupName":"Идентификация товара",
+         "groupId":192,
+         "attributes":[
+            {
+               "attrId":2478,
+               "attrName":"Торговое наименование товара",
+               "attrValue":"СИГАРЕТЫ С ФИЛЬТРОМ PALL MALL HOLLYWOOD NIGHTS"
+            },
+            {
+               "attrId":2504,
+               "attrName":"Товарный знак",
+               "attrValue":"PALL MALL"
+            },
+            {
+               "attrId":15448,
+               "attrName":"Мера нетто",
+               "attrValue":"100.12"
+            },
+            {
+               "attrId":13747,
+               "attrName":"Страна производства",
+               "attrValue":"Узбекистан"
+            }
+         ]
+      }
+   ]
