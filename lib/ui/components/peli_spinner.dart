@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:lottie/lottie.dart';
 import 'package:peli/utils/device_size_config.dart';
 
@@ -11,7 +10,7 @@ peliSpinner() {
       children: [
         SizedBox(
           width: 40,
-          child: SvgPicture.asset('assets/svg/soliq_logo_icon.svg'),
+          child: Image.asset('assets/logo/peli.png'),
         ),
         Lottie.asset('assets/lottie/spinner.json'),
       ],

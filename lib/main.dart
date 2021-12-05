@@ -99,7 +99,7 @@ class _MyAppState extends State<MyApp> {
                     routeInformationParser: _appRouter.defaultRouteParser(),
                     theme: ThemeProvider.themeOf(themeContext).data,
                     debugShowCheckedModeBanner: false,
-                    title: 'Soliq',
+                    title: 'PeLI',
                     locale: _locale,
                     supportedLocales: [
                       Locale('uz', 'UZ'),

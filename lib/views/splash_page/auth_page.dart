@@ -6,13 +6,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:peli/localization/language_constants.dart';
 import 'package:peli/providers/locator.dart';
-import 'package:peli/ui/components/soliq_spinner.dart';
+import 'package:peli/providers/router.gr.dart';
+import 'package:peli/ui/components/peli_spinner.dart';
 import 'package:peli/ui/theme/my_themes.dart';
 import 'package:peli/ui/widgets/card/card_shadow.dart';
 import 'package:peli/ui/widgets/modal_progress_hud.dart';
 import 'package:peli/ui/widgets/peli_logo.dart';
 import 'package:peli/utils/user_data.dart';
 import 'package:theme_provider/theme_provider.dart';
+import 'package:auto_route/auto_route.dart';
 
 class AuthPage extends StatefulWidget {
   const AuthPage({Key? key}) : super(key: key);
@@ -103,6 +105,7 @@ class _AuthPageState extends State<AuthPage>
                       visible: !appLaunched,
                       child: InkWell(
                         onTap: () {
+                          context.router.push(MainPageRoute());
                         },
                         highlightColor: Colors.transparent,
                         child: Padding(
