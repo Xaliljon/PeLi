@@ -11,18 +11,11 @@ class PeliLogo extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            new SvgPicture.asset(
-              'assets/logo/soliq_logo.svg',
-              width: 60.0,
+            new Image.asset(
+              'assets/logo/peli.png',
+              width: 200,
             ),
             SizedBox(height: 10.0),
-            Text(
-              'PeLi',
-              style: TextStyle(
-                fontSize: 18.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
             SizedBox(height: 6.0),
             Opacity(
               opacity: 0.5,
