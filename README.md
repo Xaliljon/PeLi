@@ -5,6 +5,6 @@
 ## Jamoa a'zolari: 
 
 1. [Xaliljon Baxtyorov](https://github.com/Xaliljon)
-2. [Shamshod Sodiqov]
-3. [Abduvohid Ergashev]
+2. [Shamshod Sodiqov](https://t.me/salimovichshs)
+3. [Abduvohid Ergashev](https://t.me/Wwis_mwrwq)
 
